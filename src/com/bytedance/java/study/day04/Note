@@ -1,0 +1,11 @@
+1.switch后面使用的表达式可以是哪些数据类型的
+byte、short、char、int、枚举类型变量、String类型
+
+2.谈谈你对三元运算符、if-else、switch-case结构使用场景的理解
+if(a!=b){
+  System.out.println(a);
+}else{
+  System.out.println(b);
+}
+
+int c = (a!=b)?a:b;
