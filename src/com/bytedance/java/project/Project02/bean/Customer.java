@@ -64,4 +64,9 @@ public class Customer {
     }
 
     private String email;//电子邮箱
+
+    @Override
+    public String toString() {
+        return "\t" + name + "\t" + gender + "\t\t" + age + "\t\t" + phone + "\t\t" + email;
+    }
 }
