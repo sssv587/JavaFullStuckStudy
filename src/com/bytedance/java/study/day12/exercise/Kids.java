@@ -7,7 +7,7 @@ package com.bytedance.java.study.day12.exercise;
  * 成员变量int yearsOld；
  * 方法printAge()打印yearsOld的值。
  */
-public class Kids extends ManKind{
+public class Kids extends ManKind {
     private int yearsOld;
 
     public int getYearsOld() {
@@ -23,7 +23,8 @@ public class Kids extends ManKind{
         this.yearsOld = yearsOld;
     }
 
-    public Kids() {}
+    public Kids() {
+    }
 
     public Kids(int yearsOld) {
         this.yearsOld = yearsOld;
@@ -31,5 +32,10 @@ public class Kids extends ManKind{
 
     public void printAge() {
         System.out.println(yearsOld);
+    }
+
+    @Override
+    public void employeed() {
+        System.out.println("Kids should study and no job");
     }
 }
