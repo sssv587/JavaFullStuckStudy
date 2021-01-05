@@ -1,6 +1,5 @@
 package com.bytedance.java.java_base_study.day14.java;
 
-import com.bytedance.java.java_base_study.day13.exercise3.Circle;
 
 import java.util.Objects;
 
