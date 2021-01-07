@@ -19,3 +19,8 @@ public class AddTest {
         }
     }
 }
+
+
+//abstract class Person{
+//    public static void eat();
+//}
