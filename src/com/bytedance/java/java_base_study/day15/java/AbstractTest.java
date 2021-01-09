@@ -25,6 +25,7 @@ public class AbstractTest {
         //一旦Person类抽象了，就不可实例化
         //Person p1 = new Person();
         //p1.eat();
+        Person.walk();
     }
 }
 
@@ -50,8 +51,11 @@ abstract class Person extends Creature{
 
     public abstract void eat();
 
-    public void walk(){
+    public static void walk(){
         System.out.println("人走路");
+    }
+    public void add(){
+        System.out.println("人加了");
     }
 }
 
