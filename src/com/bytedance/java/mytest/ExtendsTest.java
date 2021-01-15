@@ -7,12 +7,12 @@ package com.bytedance.java.mytest;
  */
 public class ExtendsTest {
     public static void main(String[] args) {
-        Worker worker = new Worker();
+        JavaSE worker = new Worker();
         Person person = new Person();
         System.out.println(person.age);
-        System.out.println(worker.age);
-        worker.walk();
-        //worker.sayHello();
+        //System.out.println(worker.age);
+        //worker.walk();
+        worker.sayHello();
     }
 }
 
@@ -36,7 +36,7 @@ class Worker extends Person implements JavaSE{
 interface JavaSE{
     void getSum();
 
-     static void sayHello(){
+    default void sayHello(){
         System.out.println("hello");
     }
 }
