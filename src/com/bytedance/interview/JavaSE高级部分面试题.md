@@ -24,3 +24,7 @@
 - 便于线程管理
 
 ## String str1 = "abc"; 与 String str2 = new String("abc");的区别
+
+## Comparable接口与Comparator的使用的对比：
+- Comparable接口的方式一旦一定，保证Comparable接口实现类的对象在任何位置都可以比较大小。
+- Comparator接口属于临时性的比较。
