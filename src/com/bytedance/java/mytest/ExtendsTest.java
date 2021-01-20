@@ -13,6 +13,13 @@ public class ExtendsTest {
         //System.out.println(worker.age);
         //worker.walk();
         worker.sayHello();
+//        new AA(){
+//            @Override
+//            public void show() {
+//                System.out.println("hello");
+//            }
+//        }.show();
+        AA.show();
     }
 }
 
@@ -46,6 +53,9 @@ abstract class AA{
 
     }
 
+    public static void show(){
+        System.out.println("sss");
+    }
     class CC extends BB{
 
     }

@@ -2,11 +2,6 @@ package com.bytedance.java.java_base_study.day16.java1;
 
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.util.Date;
-import java.util.Scanner;
-
 /**
  * @author yuhang.sun
  * @date 2021/1/9 - 19:12

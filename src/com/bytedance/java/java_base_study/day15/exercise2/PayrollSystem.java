@@ -1,7 +1,6 @@
 package com.bytedance.java.java_base_study.day15.exercise2;
 
 import java.util.Calendar;
-import java.util.Scanner;
 
 /**
  * @author yuhang.sun

@@ -11,11 +11,12 @@ package com.bytedance.java.java_senior_study.day05.java;
 public class SeasonTest1 {
     public static void main(String[] args) {
         Season1 summer = Season1.SUMMER;
+        //toString():返回枚举类对象的名称
         System.out.println(summer.toString());
 
         //System.out.println(Season1.class.getSuperclass());
 
-        //values():
+        //values():返回所有的枚举类对象构成的数组
         Season1[] values = Season1.values();
         for (Season1 value : values) {
             System.out.println(value);

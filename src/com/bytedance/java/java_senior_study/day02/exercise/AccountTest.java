@@ -1,7 +1,5 @@
 package com.bytedance.java.java_senior_study.day02.exercise;
 
-import com.bytedance.java.java_base_study.day15.java1.C;
-
 /**
  * @author yuhang.sun
  * @version 1.0

@@ -1,8 +1,6 @@
 package com.bytedance.java.java_base_study.day13.java2;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.junit.Test;
-import scala.Int;
 
 /**
  * @author yuhang.sun

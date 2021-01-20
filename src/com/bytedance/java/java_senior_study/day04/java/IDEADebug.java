@@ -2,8 +2,6 @@ package com.bytedance.java.java_senior_study.day04.java;
 
 import org.junit.Test;
 
-import java.util.Date;
-
 /**
  * @author yuhang.sun
  * @version 1.0
