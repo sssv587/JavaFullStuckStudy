@@ -1,4 +1,4 @@
-package com.bytedance.java.java_senior_study.day12.java4;
+package com.bytedance.java.java_senior_study.day13.java;
 
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ import java.util.Optional;
  * @date 2021/2/2 - 0:51
  * @Description
  */
-public class OptionalTest1 {
+public class OptionalTest {
     @Test
     public void test1() {
         //empty():创建的Optional对象内部的value=null
