@@ -121,7 +121,7 @@ public class GenericTest {
                  G<? extends A> 可以作为G<A>和G<B>的父类的，其中B是A的子类
 
         ? super A：
-                 G<? extends A> 可以作为G<A>和G<B>的父类的，其中B是A的父类
+                 G<? super A> 可以作为G<A>和G<B>的父类的，其中B是A的父类
      */
     @Test
     public void test4() {
