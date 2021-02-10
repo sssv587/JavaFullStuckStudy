@@ -86,7 +86,7 @@ public class FilesTest {
 	 * StandardOpenOption.CREATE：如果要写出的文件不存在，则创建。如果存在，忽略
 	 * StandardOpenOption.CREATE_NEW：如果要写出的文件不存在，则创建。如果存在，抛异常
 	 *
-	 * @author shkstart 邮箱：shkstart@126.com
+	 *
 	 * @throws IOException
 	 */
 	@Test
